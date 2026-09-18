@@ -14,7 +14,7 @@ import StudyTimerScreen from './pages/StudyTimerScreen';
 export default function App() {
   return (
     <ThemeProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/Studify-">
         <Routes>
           <Route path="/" element={<LoginScreen />} />
           <Route path="/dashboard" element={<DashboardScreen />} />
