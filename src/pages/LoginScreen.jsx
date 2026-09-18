@@ -17,7 +17,7 @@ function UNCBackgroundArch() {
       <div className="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-25 d-none d-md-block" style={{ zIndex: 1 }}></div>
       
       <img
-        src="/UNCbackground.jpeg"
+        src={`${import.meta.env.BASE_URL}UNCbackground.jpeg`}
         alt="UNC Campus Arch"
         className="w-100 h-100"
         style={{ objectFit: 'cover', objectPosition: 'top' }}
@@ -109,7 +109,7 @@ export default function LoginScreen() {
           className="bg-white shadow-sm border border-light d-flex align-items-center justify-content-center mb-4 p-2" 
           style={{ width: '130px', height: '130px', borderRadius: '2rem' }}
         >
-          <img src="/UNCSeal.png" alt="UNC Seal" className="w-100 h-100" style={{ objectFit: 'contain' }} />
+          <img src={`${import.meta.env.BASE_URL}UNCSeal.png`} alt="UNC Seal" className="w-100 h-100" style={{ objectFit: 'contain' }} />
         </div>
 
         {/* Brand Name */}
